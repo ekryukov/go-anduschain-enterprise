@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

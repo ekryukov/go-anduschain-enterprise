@@ -32,14 +32,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/p2p/simulations"
-	"github.com/anduschain/go-anduschain/p2p/simulations/adapters"
-	"github.com/anduschain/go-anduschain/rlp"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations/adapters"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/fairnode"
-	"github.com/anduschain/go-anduschain/fairnode/fairdb"
-	"github.com/anduschain/go-anduschain/params"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode/fairdb"
+	"github.com/anduschain/go-anduschain-enterprise/params"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 	"github.com/urfave/cli"
 	log "gopkg.in/inconshreveable/log15.v2"
 	"io/ioutil"

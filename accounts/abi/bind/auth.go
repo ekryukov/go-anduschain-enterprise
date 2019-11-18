@@ -19,10 +19,10 @@ package bind
 import (
 	"crypto/ecdsa"
 	"errors"
-	"github.com/anduschain/go-anduschain/accounts/keystore"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 	"io"
 	"io/ioutil"
 )

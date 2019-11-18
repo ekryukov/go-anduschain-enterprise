@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 func TestEIP155Signing(t *testing.T) {

@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

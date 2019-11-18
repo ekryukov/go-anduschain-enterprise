@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 var (

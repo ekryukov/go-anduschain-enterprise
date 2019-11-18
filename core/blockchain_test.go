@@ -18,22 +18,22 @@ package core
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/consensus/deb"
+	"github.com/anduschain/go-anduschain-enterprise/consensus/deb"
 	"math/big"
 	"math/rand"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/consensus"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/state"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/core/vm"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/consensus"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/state"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // So we can deterministically seed different blockchains
@@ -1241,7 +1241,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/anduschain/go-anduschain/pull/15941
+// https://github.com/anduschain/go-anduschain-enterprise/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := deb.NewFaker()

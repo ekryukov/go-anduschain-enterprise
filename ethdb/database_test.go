@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/anduschain/go-anduschain"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/rpc"
-	whisper "github.com/anduschain/go-anduschain/whisper/whisperv6"
+	"github.com/anduschain/go-anduschain-enterprise"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
+	whisper "github.com/anduschain/go-anduschain-enterprise/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

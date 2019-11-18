@@ -5,7 +5,7 @@ package whisperv5
 import (
 	"encoding/json"
 
-	"github.com/anduschain/go-anduschain/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
 )
 
 var _ = (*criteriaOverride)(nil)

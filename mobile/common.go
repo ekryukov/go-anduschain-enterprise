@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

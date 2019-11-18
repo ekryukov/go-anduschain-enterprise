@@ -2,8 +2,8 @@ package fairdb
 
 import (
 	"context"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/fairnode/fairdb/fntype"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode/fairdb/fntype"
 	"go.mongodb.org/mongo-driver/mongo"
 	"math/big"
 	"time"
@@ -77,7 +77,6 @@ func TransTransaction(block *types.Block, chainID *big.Int, txC *mongo.Collectio
 			logger.Error("Save Transaction, Sender", "database", "mongo", "msg", err)
 			continue
 		}
-
 
 		recipient := "contract"
 		if tx.To() != nil {

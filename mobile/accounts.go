@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/accounts/keystore"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 const (

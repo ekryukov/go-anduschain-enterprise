@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/anduschain/go-anduschain-enterprise/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/anduschain/go-anduschain/internal/cmdtest"
 )
 
 type testEthkey struct {

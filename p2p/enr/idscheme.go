@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/common/math"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/crypto/sha3"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/sha3"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 // Registry of known identity schemes.

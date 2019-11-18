@@ -23,15 +23,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/light"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/rlp"
-	"github.com/anduschain/go-anduschain/trie"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/light"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/trie"
 )
 
 var (

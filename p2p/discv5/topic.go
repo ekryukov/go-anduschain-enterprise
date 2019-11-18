@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/mclock"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/common/mclock"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 const (

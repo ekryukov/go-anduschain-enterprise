@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/vm/runtime"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm/runtime"
 )
 
 func ExampleExecute() {

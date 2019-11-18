@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/event"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/event"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"github.com/karalabe/hid"
 )
 

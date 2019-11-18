@@ -19,8 +19,8 @@ package les
 import (
 	"sync"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 type ltrInfo struct {

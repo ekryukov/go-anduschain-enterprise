@@ -19,9 +19,9 @@ package state
 import (
 	"bytes"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/rlp"
-	"github.com/anduschain/go-anduschain/trie"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

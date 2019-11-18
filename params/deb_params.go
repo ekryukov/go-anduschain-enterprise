@@ -1,7 +1,7 @@
 package params
 
 import (
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	"math"
 )
 

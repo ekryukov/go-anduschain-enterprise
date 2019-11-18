@@ -18,11 +18,11 @@ package core
 
 import (
 	"container/list"
-	//"github.com/anduschain/go-anduschain/pools/txpool"
+	//"github.com/anduschain/go-anduschain-enterprise/pools/txpool"
 
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/event"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/event"
 )
 
 // Implement our EthTest Manager

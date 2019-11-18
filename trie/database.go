@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/metrics"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 var (

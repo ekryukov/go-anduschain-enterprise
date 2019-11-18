@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 func init() {

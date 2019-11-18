@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/accounts/keystore"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

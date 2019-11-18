@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
 )
 
 var (

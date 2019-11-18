@@ -27,8 +27,8 @@ import (
 
 	"reflect"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 const jsondata = `

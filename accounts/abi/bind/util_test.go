@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/accounts/abi/bind"
-	"github.com/anduschain/go-anduschain/accounts/abi/bind/backends"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi/bind"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi/bind/backends"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

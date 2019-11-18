@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
 )
 
 type MyType [5]byte

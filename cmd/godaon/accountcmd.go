@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/accounts/keystore"
-	"github.com/anduschain/go-anduschain/cmd/utils"
-	"github.com/anduschain/go-anduschain/console"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/utils"
+	"github.com/anduschain/go-anduschain-enterprise/console"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"github.com/urfave/cli"
 )
 

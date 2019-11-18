@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/netutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/p2p/netutil"
 )
 
 func init() {

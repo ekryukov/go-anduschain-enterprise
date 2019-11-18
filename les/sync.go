@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/eth/downloader"
-	"github.com/anduschain/go-anduschain/light"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/eth/downloader"
+	"github.com/anduschain/go-anduschain-enterprise/light"
 )
 
 // syncer is responsible for periodically synchronising with the network, both

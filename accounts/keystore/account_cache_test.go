@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/common"
 )
 
 var (

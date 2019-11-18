@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 	"github.com/deckarep/golang-set"
 )
 

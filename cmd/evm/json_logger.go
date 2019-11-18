@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/math"
-	"github.com/anduschain/go-anduschain/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
 )
 
 type JSONLogger struct {

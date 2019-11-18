@@ -18,14 +18,14 @@ package core
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/consensus/deb"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/consensus/deb"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/core/vm"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 func ExampleGenerateChain() {

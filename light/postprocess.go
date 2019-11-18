@@ -24,16 +24,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/bitutil"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/params"
-	"github.com/anduschain/go-anduschain/rlp"
-	"github.com/anduschain/go-anduschain/trie"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/bitutil"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/params"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

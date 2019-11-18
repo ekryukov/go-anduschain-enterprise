@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/internal/jsre/deps"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

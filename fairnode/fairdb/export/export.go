@@ -1,17 +1,17 @@
 package export
 
 import (
+	"context"
 	"fmt"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/fairnode/fairdb"
-	"github.com/anduschain/go-anduschain/fairnode/fairdb/fntype"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode/fairdb"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode/fairdb/fntype"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"context"
 	log "gopkg.in/inconshreveable/log15.v2"
 	"io"
 	"strings"
@@ -104,7 +104,7 @@ func (fnb *FairNodeDB) ExportN(w io.Writer, first uint64, last uint64) error {
 	logger.Info("ExportN", "first", first, "last", last)
 
 	clientOpts := options.Find().
-		SetSort(bson.M{"header.number":1})
+		SetSort(bson.M{"header.number": 1})
 
 	cur, err := fnb.BlockChain.Find(fnb.context,
 		bson.M{"header.number": bson.M{"$gte": first, "$lte": last}}, clientOpts)
@@ -130,7 +130,7 @@ func (fnb *FairNodeDB) ExportN(w io.Writer, first uint64, last uint64) error {
 
 func (fnb *FairNodeDB) GetRawBlock(blockHash string) (*types.Block, error) {
 	b := new(fntype.RawBlock)
-	err := fnb.BlockChainRaw.FindOne(fnb.context, bson.M{"_id":blockHash}).Decode(b)
+	err := fnb.BlockChainRaw.FindOne(fnb.context, bson.M{"_id": blockHash}).Decode(b)
 	if err != nil {
 		logger.Error("Get block", "database", "mongo", "msg", err)
 		return nil, err

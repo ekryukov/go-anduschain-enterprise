@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/crypto/ecies"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/ecies"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped into an Envelope.

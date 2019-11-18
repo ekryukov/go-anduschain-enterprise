@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/anduschain/go-anduschain/internal/jsre"
-	"github.com/anduschain/go-anduschain/internal/web3ext"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/internal/jsre"
+	"github.com/anduschain/go-anduschain-enterprise/internal/web3ext"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

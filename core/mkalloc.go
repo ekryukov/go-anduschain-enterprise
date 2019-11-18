@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

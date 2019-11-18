@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

@@ -18,10 +18,10 @@ package core
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/consensus"
-	"github.com/anduschain/go-anduschain/core/state"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/consensus"
+	"github.com/anduschain/go-anduschain-enterprise/core/state"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

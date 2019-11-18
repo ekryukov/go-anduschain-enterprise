@@ -21,11 +21,11 @@ import (
 
 	"encoding/json"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/internal/ethapi"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/internal/ethapi"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 type AuditLogger struct {

@@ -1,7 +1,7 @@
 package fairnode
 
 import (
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 	"github.com/urfave/cli"
 	"math/big"
 	"os"

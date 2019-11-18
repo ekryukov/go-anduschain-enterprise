@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/accounts/keystore"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 // Tests that the account management snippets work correctly.

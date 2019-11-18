@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/p2p/simulations/pipes"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

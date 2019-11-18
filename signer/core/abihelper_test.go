@@ -25,8 +25,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/anduschain/go-anduschain/accounts/abi"
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

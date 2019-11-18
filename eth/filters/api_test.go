@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

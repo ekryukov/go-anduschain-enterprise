@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/cmd/internal/browser"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/internal/browser"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 
-	"github.com/anduschain/go-anduschain/cmd/utils"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/utils"
 	cli "github.com/urfave/cli"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueURL = "https://github.com/anduschain/go-anduschain/issues/new"
+const issueURL = "https://github.com/anduschain/go-anduschain-enterprise/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

@@ -18,8 +18,8 @@ package zkrangeproof
 
 import (
 	"crypto/sha256"
-	"github.com/anduschain/go-anduschain/byteconversion"
-	bn256 "github.com/anduschain/go-anduschain/crypto/bn256/cloudflare"
+	"github.com/anduschain/go-anduschain-enterprise/byteconversion"
+	bn256 "github.com/anduschain/go-anduschain-enterprise/crypto/bn256/cloudflare"
 	"math/big"
 )
 

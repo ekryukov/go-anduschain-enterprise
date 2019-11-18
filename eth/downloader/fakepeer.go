@@ -19,11 +19,11 @@ package downloader
 import (
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

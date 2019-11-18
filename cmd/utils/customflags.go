@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
 	"github.com/urfave/cli"
 )
 

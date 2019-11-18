@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"github.com/olekukonko/tablewriter"
 )
 

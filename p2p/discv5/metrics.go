@@ -1,6 +1,6 @@
 package discv5
 
-import "github.com/anduschain/go-anduschain/metrics"
+import "github.com/anduschain/go-anduschain-enterprise/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discv5/InboundTraffic", nil)

@@ -19,8 +19,8 @@
 package whisperv6
 
 import (
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

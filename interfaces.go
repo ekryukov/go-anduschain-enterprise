@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

@@ -20,15 +20,15 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/anduschain/go-anduschain/consensus/deb"
+	"github.com/anduschain/go-anduschain-enterprise/consensus/deb"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/state"
-	"github.com/anduschain/go-anduschain/core/vm"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/params"
-	"github.com/anduschain/go-anduschain/trie"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/state"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/params"
+	"github.com/anduschain/go-anduschain-enterprise/trie"
 	"github.com/davecgh/go-spew/spew"
 )
 

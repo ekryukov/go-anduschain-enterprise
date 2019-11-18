@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/internal/cmdtest"
+	"github.com/anduschain/go-anduschain-enterprise/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
 )
 

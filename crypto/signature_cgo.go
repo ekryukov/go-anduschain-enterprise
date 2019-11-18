@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common/math"
-	"github.com/anduschain/go-anduschain/crypto/secp256k1"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

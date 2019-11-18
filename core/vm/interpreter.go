@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/anduschain/go-anduschain/common/math"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // Config are the configuration options for the Interpreter

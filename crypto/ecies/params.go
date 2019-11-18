@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/anduschain/go-anduschain/crypto"
+	ethcrypto "github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 var (

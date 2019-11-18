@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/anduschain/go-anduschain/core/state"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/core/state"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

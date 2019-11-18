@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/mclock"
+	"github.com/anduschain/go-anduschain-enterprise/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

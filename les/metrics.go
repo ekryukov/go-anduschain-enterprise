@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/anduschain/go-anduschain/metrics"
-	"github.com/anduschain/go-anduschain/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
 )
 
 var (

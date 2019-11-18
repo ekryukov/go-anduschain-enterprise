@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/mclock"
-	"github.com/anduschain/go-anduschain/light"
+	"github.com/anduschain/go-anduschain-enterprise/common/mclock"
+	"github.com/anduschain/go-anduschain-enterprise/light"
 )
 
 var (

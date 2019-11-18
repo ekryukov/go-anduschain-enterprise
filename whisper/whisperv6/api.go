@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // List of errors

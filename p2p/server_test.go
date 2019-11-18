@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/crypto/sha3"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/sha3"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
 )
 
 func init() {

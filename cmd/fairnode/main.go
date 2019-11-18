@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/fairnode"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 	"github.com/urfave/cli"
 	log "gopkg.in/inconshreveable/log15.v2"
 	"os"
@@ -99,7 +99,6 @@ var (
 			Name:  "fromfile",
 			Usage: "input file path for chainconfig or recovery block",
 		},
-
 	}
 )
 

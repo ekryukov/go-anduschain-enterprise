@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

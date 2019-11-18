@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

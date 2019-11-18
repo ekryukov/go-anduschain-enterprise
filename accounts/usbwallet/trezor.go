@@ -24,15 +24,15 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 	"io"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/accounts/usbwallet/internal/trezor"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/usbwallet/internal/trezor"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"github.com/golang/protobuf/proto"
 )
 

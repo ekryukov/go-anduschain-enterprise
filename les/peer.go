@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/eth"
-	"github.com/anduschain/go-anduschain/les/flowcontrol"
-	"github.com/anduschain/go-anduschain/light"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/eth"
+	"github.com/anduschain/go-anduschain-enterprise/les/flowcontrol"
+	"github.com/anduschain/go-anduschain-enterprise/light"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 var (

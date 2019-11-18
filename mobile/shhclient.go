@@ -19,8 +19,8 @@
 package geth
 
 import (
-	"github.com/anduschain/go-anduschain/whisper/shhclient"
-	whisper "github.com/anduschain/go-anduschain/whisper/whisperv6"
+	"github.com/anduschain/go-anduschain-enterprise/whisper/shhclient"
+	whisper "github.com/anduschain/go-anduschain-enterprise/whisper/whisperv6"
 )
 
 // WhisperClient provides access to the Ethereum APIs.

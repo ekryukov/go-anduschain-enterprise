@@ -17,16 +17,16 @@
 package core
 
 import (
-	"github.com/anduschain/go-anduschain/consensus/deb"
+	"github.com/anduschain/go-anduschain-enterprise/consensus/deb"
 	"math/big"
 	"reflect"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/vm"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 	"github.com/davecgh/go-spew/spew"
 )
 

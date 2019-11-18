@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/metrics"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // PrivateAdminAPI is the collection of administrative API methods exposed only

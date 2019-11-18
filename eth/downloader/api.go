@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/anduschain/go-anduschain"
-	"github.com/anduschain/go-anduschain/event"
-	"github.com/anduschain/go-anduschain/rpc"
+	ethereum "github.com/anduschain/go-anduschain-enterprise"
+	"github.com/anduschain/go-anduschain-enterprise/event"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.
@@ -40,8 +40,8 @@ type PublicDownloaderAPI struct {
 // installSyncSubscription channel.
 func NewPublicDownloaderAPI(d *Downloader, m *event.TypeMux) *PublicDownloaderAPI {
 	api := &PublicDownloaderAPI{
-		d:   d,
-		mux: m,
+		d:                         d,
+		mux:                       m,
 		installSyncSubscription:   make(chan chan interface{}),
 		uninstallSyncSubscription: make(chan *uninstallSyncSubscriptionRequest),
 	}

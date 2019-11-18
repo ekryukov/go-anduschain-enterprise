@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/accounts/keystore"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/eth"
-	"github.com/anduschain/go-anduschain/eth/downloader"
-	"github.com/anduschain/go-anduschain/ethclient"
-	"github.com/anduschain/go-anduschain/ethstats"
-	"github.com/anduschain/go-anduschain/les"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/p2p/discv5"
-	"github.com/anduschain/go-anduschain/p2p/nat"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/eth"
+	"github.com/anduschain/go-anduschain-enterprise/eth/downloader"
+	"github.com/anduschain/go-anduschain-enterprise/ethclient"
+	"github.com/anduschain/go-anduschain-enterprise/ethstats"
+	"github.com/anduschain/go-anduschain-enterprise/les"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discv5"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/nat"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -448,7 +448,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/anduschain/go-anduschain/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/anduschain/go-anduschain-enterprise/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

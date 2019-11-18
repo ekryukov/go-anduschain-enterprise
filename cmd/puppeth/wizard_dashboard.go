@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

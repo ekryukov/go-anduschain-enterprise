@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/mclock"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

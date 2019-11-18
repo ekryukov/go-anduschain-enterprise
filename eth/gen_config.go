@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/eth/downloader"
-	"github.com/anduschain/go-anduschain/eth/gasprice"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/eth/downloader"
+	"github.com/anduschain/go-anduschain-enterprise/eth/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

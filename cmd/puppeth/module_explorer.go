@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

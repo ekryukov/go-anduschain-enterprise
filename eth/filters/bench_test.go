@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/bitutil"
-	"github.com/anduschain/go-anduschain/core/bloombits"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/event"
-	"github.com/anduschain/go-anduschain/node"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/bitutil"
+	"github.com/anduschain/go-anduschain-enterprise/core/bloombits"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/event"
+	"github.com/anduschain/go-anduschain-enterprise/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

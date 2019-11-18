@@ -4,9 +4,9 @@ import (
 	"crypto/ecdsa"
 	crand "crypto/rand"
 	"fmt"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 	"github.com/pkg/errors"
 	log "gopkg.in/inconshreveable/log15.v2"
 )

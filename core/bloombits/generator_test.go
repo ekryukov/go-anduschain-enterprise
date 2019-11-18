@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

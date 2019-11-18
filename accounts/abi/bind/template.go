@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/anduschain/go-anduschain/accounts/abi"
+import "github.com/anduschain/go-anduschain-enterprise/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

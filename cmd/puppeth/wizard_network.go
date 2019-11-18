@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

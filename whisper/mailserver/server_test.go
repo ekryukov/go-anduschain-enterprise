@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
-	whisper "github.com/anduschain/go-anduschain/whisper/whisperv6"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	whisper "github.com/anduschain/go-anduschain-enterprise/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

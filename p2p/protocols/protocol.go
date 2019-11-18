@@ -37,10 +37,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/metrics"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 // error codes used by this  protocol scheme

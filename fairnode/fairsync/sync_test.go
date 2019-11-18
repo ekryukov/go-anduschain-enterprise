@@ -2,7 +2,7 @@ package fairsync
 
 import (
 	"bytes"
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	"testing"
 )
 

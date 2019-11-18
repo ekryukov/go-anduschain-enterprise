@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

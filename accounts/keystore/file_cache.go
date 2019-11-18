@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/anduschain/go-anduschain/log"
 )
 
 // fileCache is a cache of files seen during scan of keystore.

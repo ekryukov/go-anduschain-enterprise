@@ -23,15 +23,15 @@ import (
 	"crypto/elliptic"
 	"errors"
 	"fmt"
-	"github.com/anduschain/go-anduschain/core"
+	"github.com/anduschain/go-anduschain-enterprise/core"
 	"io"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/crypto/secp256k1"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/secp256k1"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 // Constants to match up protocol versions and messages

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

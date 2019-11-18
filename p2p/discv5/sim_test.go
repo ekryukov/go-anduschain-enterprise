@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

@@ -1,9 +1,9 @@
 package types
 
 import (
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 //go:generate gencodec -type Voter -field-override votertMarshaling -out gen_voter_json.go

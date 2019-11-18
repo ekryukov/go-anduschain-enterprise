@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/event"
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/p2p/simulations/adapters"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/event"
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations/adapters"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

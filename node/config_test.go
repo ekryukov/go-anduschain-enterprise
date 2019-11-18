@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

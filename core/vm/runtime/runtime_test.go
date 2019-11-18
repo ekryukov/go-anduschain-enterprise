@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/accounts/abi"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/state"
-	"github.com/anduschain/go-anduschain/core/vm"
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/state"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

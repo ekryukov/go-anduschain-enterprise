@@ -2,12 +2,12 @@ package client
 
 import (
 	"context"
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/p2p"
-	proto "github.com/anduschain/go-anduschain/protos/common"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	proto "github.com/anduschain/go-anduschain-enterprise/protos/common"
 	"testing"
 	"time"
 )

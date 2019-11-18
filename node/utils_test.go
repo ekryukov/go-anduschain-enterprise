@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

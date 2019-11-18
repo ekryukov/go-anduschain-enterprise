@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 const (

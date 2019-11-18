@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/crypto/sha3"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/sha3"
 )
 
 // Lengths of hashes and addresses in bytes.

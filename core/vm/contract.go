@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // ContractRef is a reference to the contract's backing object

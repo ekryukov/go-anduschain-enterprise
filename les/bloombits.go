@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/bitutil"
-	"github.com/anduschain/go-anduschain/light"
+	"github.com/anduschain/go-anduschain-enterprise/common/bitutil"
+	"github.com/anduschain/go-anduschain-enterprise/light"
 )
 
 const (

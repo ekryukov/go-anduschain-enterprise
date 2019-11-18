@@ -1,8 +1,8 @@
 package fairdb
 
 import (
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 	"github.com/pkg/errors"
 	log "gopkg.in/inconshreveable/log15.v2"
 	"math/big"

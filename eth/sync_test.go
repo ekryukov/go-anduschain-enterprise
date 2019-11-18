@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/eth/downloader"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/eth/downloader"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

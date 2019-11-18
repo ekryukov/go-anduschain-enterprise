@@ -4,8 +4,8 @@ package mock_fairnode
 
 import (
 	"context"
-	"github.com/anduschain/go-anduschain/protos/common"
-	"github.com/anduschain/go-anduschain/protos/fairnode"
+	"github.com/anduschain/go-anduschain-enterprise/protos/common"
+	"github.com/anduschain/go-anduschain-enterprise/protos/fairnode"
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/ptypes/empty"
 	"testing"

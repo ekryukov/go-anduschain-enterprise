@@ -2,8 +2,8 @@ package types
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/common"
-	proto "github.com/anduschain/go-anduschain/protos/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	proto "github.com/anduschain/go-anduschain-enterprise/protos/common"
 	"math/big"
 )
 

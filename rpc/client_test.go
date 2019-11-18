@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/anduschain/go-anduschain/log"
 )
 
 func TestClientRequest(t *testing.T) {

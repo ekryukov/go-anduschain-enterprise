@@ -17,9 +17,9 @@
 package keystore
 
 import (
-	ethereum "github.com/anduschain/go-anduschain"
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/core/types"
+	ethereum "github.com/anduschain/go-anduschain-enterprise"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 	"math/big"
 )
 

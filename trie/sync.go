@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/prque"
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/prque"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

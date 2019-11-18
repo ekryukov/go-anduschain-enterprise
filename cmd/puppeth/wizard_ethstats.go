@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

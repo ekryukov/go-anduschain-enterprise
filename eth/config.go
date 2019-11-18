@@ -22,12 +22,12 @@ import (
 	"os/user"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/eth/downloader"
-	"github.com/anduschain/go-anduschain/eth/gasprice"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/eth/downloader"
+	"github.com/anduschain/go-anduschain-enterprise/eth/gasprice"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // DefaultConfig contains default settings for use on the Anduschain test net. -> will change main net

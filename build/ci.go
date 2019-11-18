@@ -58,8 +58,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anduschain/go-anduschain/internal/build"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/internal/build"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 var (

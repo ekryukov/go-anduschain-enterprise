@@ -20,7 +20,7 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/anduschain/go-anduschain/consensus/deb/client"
+	"github.com/anduschain/go-anduschain-enterprise/consensus/deb/client"
 	"io"
 	"os"
 	"reflect"
@@ -28,12 +28,12 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/anduschain/go-anduschain/cmd/utils"
-	"github.com/anduschain/go-anduschain/dashboard"
-	"github.com/anduschain/go-anduschain/eth"
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/params"
-	whisper "github.com/anduschain/go-anduschain/whisper/whisperv6"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/utils"
+	"github.com/anduschain/go-anduschain-enterprise/dashboard"
+	"github.com/anduschain/go-anduschain-enterprise/eth"
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/params"
+	whisper "github.com/anduschain/go-anduschain-enterprise/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

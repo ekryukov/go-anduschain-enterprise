@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/p2p/discv5"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discv5"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

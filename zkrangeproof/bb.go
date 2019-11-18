@@ -19,7 +19,7 @@ package zkrangeproof
 import (
 	"crypto/rand"
 	"errors"
-	bn256 "github.com/anduschain/go-anduschain/crypto/bn256/cloudflare"
+	bn256 "github.com/anduschain/go-anduschain-enterprise/crypto/bn256/cloudflare"
 	"math/big"
 )
 

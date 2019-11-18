@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/internal/ethapi"
-	"github.com/anduschain/go-anduschain/params"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/internal/ethapi"
+	"github.com/anduschain/go-anduschain-enterprise/params"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.GWei)

@@ -27,9 +27,9 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/p2p/discover"
 )
 
 var (

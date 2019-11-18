@@ -20,7 +20,7 @@ package utils
 import (
 	"compress/gzip"
 	"fmt"
-	"github.com/anduschain/go-anduschain/fairnode/fairdb/export"
+	"github.com/anduschain/go-anduschain-enterprise/fairnode/fairdb/export"
 	"io"
 	"os"
 	"os/signal"
@@ -28,16 +28,16 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/core/rawdb"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/internal/debug"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/core/rawdb"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/internal/debug"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 const (

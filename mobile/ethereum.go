@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/anduschain/go-anduschain"
-	"github.com/anduschain/go-anduschain/common"
+	ethereum "github.com/anduschain/go-anduschain-enterprise"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // Subscription represents an event subscription where events are

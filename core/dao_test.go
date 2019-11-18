@@ -17,13 +17,13 @@
 package core
 
 import (
-	"github.com/anduschain/go-anduschain/consensus/deb"
+	"github.com/anduschain/go-anduschain-enterprise/consensus/deb"
 	"math/big"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/core/vm"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

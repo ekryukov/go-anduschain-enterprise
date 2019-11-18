@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/accounts/abi"
-	"github.com/anduschain/go-anduschain/accounts/abi/bind"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi/bind"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

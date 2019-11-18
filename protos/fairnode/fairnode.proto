@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/anduschain/go-anduschain/protos/fairnode";
+option go_package = "github.com/anduschain/go-anduschain-enterprise/protos/fairnode";
 
 package fairnode;
 

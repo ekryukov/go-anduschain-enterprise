@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 func init() {

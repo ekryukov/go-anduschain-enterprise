@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

@@ -17,9 +17,9 @@
 package zkrangeproof
 
 import (
-	"github.com/anduschain/go-anduschain/byteconversion"
-	"github.com/anduschain/go-anduschain/crypto/sha3"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/byteconversion"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/sha3"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"math/big"
 	"strconv"
 )

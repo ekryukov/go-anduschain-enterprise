@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/mclock"
+	"github.com/anduschain/go-anduschain-enterprise/common/mclock"
 )
 
 const fcTimeConst = time.Millisecond

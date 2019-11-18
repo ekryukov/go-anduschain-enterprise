@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/mclock"
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/common/mclock"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 func TestFreeClientPoolL10C100(t *testing.T) {

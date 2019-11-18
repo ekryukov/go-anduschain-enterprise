@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

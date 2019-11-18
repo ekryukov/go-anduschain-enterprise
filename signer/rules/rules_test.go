@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/accounts"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/common/hexutil"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/internal/ethapi"
-	"github.com/anduschain/go-anduschain/signer/core"
-	"github.com/anduschain/go-anduschain/signer/storage"
+	"github.com/anduschain/go-anduschain-enterprise/accounts"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/common/hexutil"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/internal/ethapi"
+	"github.com/anduschain/go-anduschain-enterprise/signer/core"
+	"github.com/anduschain/go-anduschain-enterprise/signer/storage"
 )
 
 const JS = `

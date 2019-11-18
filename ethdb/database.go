@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

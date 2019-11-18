@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/event"
+	"github.com/anduschain/go-anduschain-enterprise/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

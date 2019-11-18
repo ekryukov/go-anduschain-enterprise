@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/anduschain/go-anduschain/eth/tracers/internal/tracers"
+	"github.com/anduschain/go-anduschain-enterprise/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

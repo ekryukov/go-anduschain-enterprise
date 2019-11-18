@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/rlp"
 )
 
 // Peer represents a whisper protocol peer connection.

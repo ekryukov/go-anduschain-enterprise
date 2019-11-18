@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 // Method represents a callable given a `Name` and whether the method is a constant.

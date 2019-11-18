@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 /*

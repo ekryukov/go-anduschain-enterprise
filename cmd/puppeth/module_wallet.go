@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

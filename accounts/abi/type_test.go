@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/anduschain/go-anduschain/common"
 )
 
 // typeWithoutStringer is a alias for the Type type which simply doesn't implement

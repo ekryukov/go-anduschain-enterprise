@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common/bitutil"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/common/bitutil"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

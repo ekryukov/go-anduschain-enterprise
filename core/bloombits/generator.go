@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 var (

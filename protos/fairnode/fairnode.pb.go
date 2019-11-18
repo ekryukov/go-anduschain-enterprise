@@ -6,7 +6,7 @@ package fairnode
 import (
 	context "context"
 	fmt "fmt"
-	common "github.com/anduschain/go-anduschain/protos/common"
+	common "github.com/anduschain/go-anduschain-enterprise/protos/common"
 	proto "github.com/golang/protobuf/proto"
 	empty "github.com/golang/protobuf/ptypes/empty"
 	grpc "google.golang.org/grpc"

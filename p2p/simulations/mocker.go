@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/p2p/simulations/adapters"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations/adapters"
 )
 
 //a map of mocker names to its function

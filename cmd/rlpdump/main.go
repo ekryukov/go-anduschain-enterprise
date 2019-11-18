@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 var (

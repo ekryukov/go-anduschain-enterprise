@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

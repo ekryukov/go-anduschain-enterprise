@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	"golang.org/x/tools/imports"
 )
 

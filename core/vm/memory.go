@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/common/math"
+	"github.com/anduschain/go-anduschain-enterprise/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

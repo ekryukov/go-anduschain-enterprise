@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/core/vm"
+	"github.com/anduschain/go-anduschain-enterprise/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

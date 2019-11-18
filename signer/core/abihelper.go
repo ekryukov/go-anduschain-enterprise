@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/accounts/abi"
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 
 	"bytes"
 	"os"

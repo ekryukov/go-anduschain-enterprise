@@ -3,8 +3,8 @@ package fairsync
 import (
 	"bytes"
 	"fmt"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 	log "gopkg.in/inconshreveable/log15.v2"
 	"sync/atomic"
 	"time"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/anduschain/go-anduschain/cmd/evm/internal/compiler"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli"
 )

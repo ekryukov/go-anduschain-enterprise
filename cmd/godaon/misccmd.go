@@ -18,9 +18,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/anduschain/go-anduschain/cmd/utils"
-	"github.com/anduschain/go-anduschain/eth"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/utils"
+	"github.com/anduschain/go-anduschain-enterprise/eth"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 	"github.com/urfave/cli"
 	"os"
 	"runtime"

@@ -4,8 +4,8 @@
 package deb
 
 import (
-	"github.com/anduschain/go-anduschain/consensus"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/consensus"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

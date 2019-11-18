@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/anduschain/go-anduschain/cmd/utils"
-	"github.com/anduschain/go-anduschain/internal/debug"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/utils"
+	"github.com/anduschain/go-anduschain-enterprise/internal/debug"
 	"github.com/urfave/cli"
 )
 

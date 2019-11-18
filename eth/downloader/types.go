@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

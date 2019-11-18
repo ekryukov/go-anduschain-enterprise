@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/anduschain/go-anduschain/p2p/discv5"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discv5"
 )
 
 // Enode represents a host on the network.

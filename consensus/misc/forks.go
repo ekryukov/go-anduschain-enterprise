@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

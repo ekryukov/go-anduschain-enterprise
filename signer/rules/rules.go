@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/internal/ethapi"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/signer/core"
-	"github.com/anduschain/go-anduschain/signer/rules/deps"
-	"github.com/anduschain/go-anduschain/signer/storage"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/internal/ethapi"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/signer/core"
+	"github.com/anduschain/go-anduschain-enterprise/signer/rules/deps"
+	"github.com/anduschain/go-anduschain-enterprise/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

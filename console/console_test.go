@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/eth"
-	"github.com/anduschain/go-anduschain/internal/jsre"
-	"github.com/anduschain/go-anduschain/node"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/eth"
+	"github.com/anduschain/go-anduschain-enterprise/internal/jsre"
+	"github.com/anduschain/go-anduschain-enterprise/node"
 )
 
 const (

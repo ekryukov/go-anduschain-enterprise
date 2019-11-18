@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 type dummyContractRef struct {

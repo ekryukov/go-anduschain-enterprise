@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/crypto/ecies"
-	"github.com/anduschain/go-anduschain/crypto/secp256k1"
-	"github.com/anduschain/go-anduschain/crypto/sha3"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/ecies"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/secp256k1"
+	"github.com/anduschain/go-anduschain-enterprise/crypto/sha3"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 	"github.com/golang/snappy"
 )
 

@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

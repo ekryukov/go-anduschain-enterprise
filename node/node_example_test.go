@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/anduschain/go-anduschain/node"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/node"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

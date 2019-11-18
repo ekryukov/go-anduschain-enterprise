@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/anduschain/go-anduschain/common"
 )
 
 func TestMultipleTopicCopyInNewMessageFilter(t *testing.T) {

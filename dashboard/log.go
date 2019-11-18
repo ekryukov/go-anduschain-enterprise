@@ -26,7 +26,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 	"github.com/mohae/deepcopy"
 	"github.com/rjeczalik/notify"
 )

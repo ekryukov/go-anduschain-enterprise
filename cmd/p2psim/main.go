@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/p2p"
-	"github.com/anduschain/go-anduschain/p2p/discover"
-	"github.com/anduschain/go-anduschain/p2p/simulations"
-	"github.com/anduschain/go-anduschain/p2p/simulations/adapters"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/p2p"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/simulations/adapters"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 	"github.com/urfave/cli"
 )
 

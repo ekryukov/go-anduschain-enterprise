@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 func TestPack(t *testing.T) {

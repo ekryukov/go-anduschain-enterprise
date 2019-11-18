@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

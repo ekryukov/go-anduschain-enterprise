@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/event"
+	"github.com/anduschain/go-anduschain-enterprise/event"
 )
 
 // Manager is an overarching account manager that can communicate with various

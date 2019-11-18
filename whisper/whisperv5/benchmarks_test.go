@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

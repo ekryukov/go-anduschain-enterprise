@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/event"
+	"github.com/anduschain/go-anduschain-enterprise/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

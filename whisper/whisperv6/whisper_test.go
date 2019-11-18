@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

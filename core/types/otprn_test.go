@@ -3,8 +3,8 @@ package types
 import (
 	crand "crypto/rand"
 	"fmt"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 	"math/big"
 	mrand "math/rand"
 	"testing"

@@ -1,10 +1,10 @@
 package fairsync
 
 import (
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/core/types"
-	proto "github.com/anduschain/go-anduschain/protos/common"
-	"github.com/anduschain/go-anduschain/protos/fairnode"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	proto "github.com/anduschain/go-anduschain-enterprise/protos/common"
+	"github.com/anduschain/go-anduschain-enterprise/protos/fairnode"
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
 	"net"

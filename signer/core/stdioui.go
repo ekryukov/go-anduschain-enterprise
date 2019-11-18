@@ -21,9 +21,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/anduschain/go-anduschain/internal/ethapi"
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise/internal/ethapi"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 )
 
 type StdIOUI struct {

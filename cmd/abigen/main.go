@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/accounts/abi/bind"
-	"github.com/anduschain/go-anduschain/common/compiler"
+	"github.com/anduschain/go-anduschain-enterprise/accounts/abi/bind"
+	"github.com/anduschain/go-anduschain-enterprise/common/compiler"
 )
 
 var (

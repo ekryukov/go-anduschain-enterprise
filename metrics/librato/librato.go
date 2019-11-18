@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/anduschain/go-anduschain/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

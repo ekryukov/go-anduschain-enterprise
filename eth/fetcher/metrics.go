@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/anduschain/go-anduschain/metrics"
+	"github.com/anduschain/go-anduschain-enterprise/metrics"
 )
 
 var (

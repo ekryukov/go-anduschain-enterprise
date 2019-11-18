@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/params"
+	"github.com/anduschain/go-anduschain-enterprise/params"
 )
 
 type (

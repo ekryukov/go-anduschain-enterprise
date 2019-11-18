@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

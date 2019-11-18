@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

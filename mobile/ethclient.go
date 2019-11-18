@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/anduschain/go-anduschain/core/types"
-	"github.com/anduschain/go-anduschain/ethclient"
+	"github.com/anduschain/go-anduschain-enterprise/core/types"
+	"github.com/anduschain/go-anduschain-enterprise/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

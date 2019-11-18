@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/anduschain/go-anduschain/core"
-	"github.com/anduschain/go-anduschain/ethdb"
-	"github.com/anduschain/go-anduschain/light"
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/core"
+	"github.com/anduschain/go-anduschain-enterprise/ethdb"
+	"github.com/anduschain/go-anduschain-enterprise/light"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // LesOdr implements light.OdrBackend

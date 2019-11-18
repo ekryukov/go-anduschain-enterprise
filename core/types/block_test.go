@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 func TestNewBlock(t *testing.T) {

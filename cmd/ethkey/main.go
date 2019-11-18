@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/anduschain/go-anduschain/cmd/utils"
+	"github.com/anduschain/go-anduschain-enterprise/cmd/utils"
 	"github.com/urfave/cli"
 )
 

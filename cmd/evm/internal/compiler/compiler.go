@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anduschain/go-anduschain/core/asm"
+	"github.com/anduschain/go-anduschain-enterprise/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

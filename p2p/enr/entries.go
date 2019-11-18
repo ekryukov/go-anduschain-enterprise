@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/anduschain/go-anduschain/crypto"
-	"github.com/anduschain/go-anduschain/rlp"
+	"github.com/anduschain/go-anduschain-enterprise/crypto"
+	"github.com/anduschain/go-anduschain-enterprise/rlp"
 )
 
 // Entry is implemented by known node record entry types.

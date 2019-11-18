@@ -19,9 +19,9 @@ package ethclient
 import (
 	"bytes"
 	"context"
-	"github.com/anduschain/go-anduschain"
-	"github.com/anduschain/go-anduschain/common"
-	"github.com/anduschain/go-anduschain/rpc"
+	"github.com/anduschain/go-anduschain-enterprise"
+	"github.com/anduschain/go-anduschain-enterprise/common"
+	"github.com/anduschain/go-anduschain-enterprise/rpc"
 	"math/big"
 	"testing"
 )

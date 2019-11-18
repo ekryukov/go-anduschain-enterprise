@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -11,10 +11,10 @@ fi
 workspace="$PWD/build/_workspace"
 root="$PWD"
 ethdir="$workspace/src/github.com/anduschain"
-if [ ! -L "$ethdir/go-anduschain" ]; then
+if [ ! -L "$ethdir/go-anduschain-enterprise" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. go-anduschain
+    ln -s ../../../../../. go-anduschain-enterprise
     cd "$root"
 fi
 
@@ -23,8 +23,8 @@ GOPATH="$workspace"
 export GOPATH
 
 # Run the command inside the workspace.
-cd "$ethdir/go-anduschain"
-PWD="$ethdir/go-anduschain"
+cd "$ethdir/go-anduschain-enterprise"
+PWD="$ethdir/go-anduschain-enterprisen"
 
 # Launch the arguments with the configured environment.
 exec "$@"

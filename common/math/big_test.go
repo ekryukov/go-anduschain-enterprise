@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

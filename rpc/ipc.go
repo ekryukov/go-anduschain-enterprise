@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/anduschain/go-anduschain/log"
-	"github.com/anduschain/go-anduschain/p2p/netutil"
+	"github.com/anduschain/go-anduschain-enterprise/log"
+	"github.com/anduschain/go-anduschain-enterprise/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

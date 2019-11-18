@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/anduschain/go-anduschain/common"
+	"github.com/anduschain/go-anduschain-enterprise/common"
 )
 
 type AddrLocker struct {

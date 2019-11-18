@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anduschain/go-anduschain/log"
+	"github.com/anduschain/go-anduschain-enterprise/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.
