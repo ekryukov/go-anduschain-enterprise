@@ -44,7 +44,7 @@ import (
 )
 
 const (
-	clientIdentifier = "godaon" // Client identifier to advertise over the network
+	clientIdentifier = "godaon-enterprise" // Client identifier to advertise over the network
 )
 
 var (

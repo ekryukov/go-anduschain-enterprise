@@ -2,20 +2,20 @@
 # with Go source code. If you know what GOPATH is then you probably
 # don't need to bother with make.
 
-.PHONY: geth android ios geth-cross evm all test clean
-.PHONY: geth-linux geth-linux-386 geth-linux-amd64 geth-linux-mips64 geth-linux-mips64le
-.PHONY: geth-linux-arm geth-linux-arm-5 geth-linux-arm-6 geth-linux-arm-7 geth-linux-arm64
-.PHONY: geth-darwin geth-darwin-386 geth-darwin-amd64
-.PHONY: geth-windows geth-windows-386 geth-windows-amd64
+.PHONY: godaon-enterprise android ios godaon-enterprise-cross evm all test clean
+.PHONY: godaon-enterprise-linux godaon-enterprise-linux-386 godaon-enterprise-linux-amd64 godaon-enterprise-linux-mips64 geth-linux-mips64le
+.PHONY: godaon-enterprise-linux-arm geth-linux-arm-5 godaon-enterprise-linux-arm-6 godaon-enterprise-linux-arm-7 godaon-enterprise-linux-arm64
+.PHONY: godaon-enterprise-darwin godaon-enterprise-darwin-386 godaon-enterprise-darwin-amd64
+.PHONY: godaon-enterprise-windows godaon-enterprise-windows-386 godaon-enterprise-windows-amd64
 .PHONY: fairnode loadtest bootnode-linux-amd64 proto
 
 GOBIN = $(shell pwd)/build/bin
 GO ?= latest
 
-godaon:
-	build/env.sh go run build/ci.go install ./cmd/godaon
-	@echo "Done building godaon."
-	@echo "Run \"$(GOBIN)/godaon\" to launch godaon."
+godaon-enterprise:
+	build/env.sh go run build/ci.go install ./cmd/godaon-enterprise
+	@echo "Done building godaon-enterprise."
+	@echo "Run \"$(GOBIN)/godaon\" to launch godaon-enterprise."
 
 fairnode:
 	build/env.sh go run build/ci.go install ./cmd/fairnode
@@ -89,96 +89,96 @@ bootnode-linux-amd64:
 	@echo "Linux amd64 cross compilation done:"
 	@ls -ld $(GOBIN)/bootnode-linux-* | grep amd64
 
-godaon-cross: godaon-linux godaon-darwin godaon-windows godaon-android godaon-ios
+godaon-enterprise-cross: godaon-enterprise-linux godaon-enterprise-darwin godaon-enterprise-windows godaon-enterprise-android godaon-enterprise-ios
 	@echo "Full cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-*
+	@ls -ld $(GOBIN)/godaon-enterprise-*
 
-godaon-linux: godaon-linux-386 godaon-linux-amd64 godaon-linux-arm godaon-linux-mips64 godaon-linux-mips64le
+godaon-enterprise-linux: godaon-enterprise-linux-386 godaon-enterprise-linux-amd64 godaon-enterprise-linux-arm godaon-enterprise-linux-mips64 godaon-enterprise-linux-mips64le
 	@echo "Linux cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-*
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-*
 
-godaon-bundle: godaon-linux-386 godaon-linux-amd64 godaon-darwin-amd64 godaon-windows-386 godaon-windows-amd64
+godaon-enterprise-bundle: godaon-enterprise-linux-386 godaon-enterprise-linux-amd64 godaon-enterprise-darwin-amd64 godaon-enterprise-windows-386 godaon-enterprise-windows-amd64
 	@echo "Bundle cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-*
+	@ls -ld $(GOBIN)/godaon-enterprise-*
 
-godaon-linux-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/386 -v ./cmd/godaon
+godaon-enterprise-linux-386:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/386 -v ./cmd/godaon-enterprise
 	@echo "Linux 386 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep 386
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep 386
 
-godaon-linux-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/amd64 -v ./cmd/godaon
+godaon-enterprise-linux-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/amd64 -v ./cmd/godaon-enterprise
 	@echo "Linux amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep amd64
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep amd64
 
-godaon-linux-arm: godaon-linux-arm-5 godaon-linux-arm-6 godaon-linux-arm-7 godaon-linux-arm64
+godaon-enterprise-linux-arm: godaon-enterprise-linux-arm-5 godaon-enterprise-linux-arm-6 godaon-enterprise-linux-arm-7 godaon-enterprise-linux-arm64
 	@echo "Linux ARM cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep arm
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep arm
 
-godaon-linux-arm-5:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-5 -v ./cmd/godaon
+godaon-enterprise-linux-arm-5:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-5 -v ./cmd/godaon-enterprise
 	@echo "Linux ARMv5 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep arm-5
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep arm-5
 
-godaon-linux-arm-6:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-6 -v ./cmd/godaon
+godaon-enterprise-linux-arm-6:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-6 -v ./cmd/godaon-enterprise
 	@echo "Linux ARMv6 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep arm-6
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep arm-6
 
-godaon-linux-arm-7:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-7 -v ./cmd/godaon
+godaon-enterprise-linux-arm-7:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm-7 -v ./cmd/godaon-enterprise
 	@echo "Linux ARMv7 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep arm-7
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep arm-7
 
-godaon-linux-arm64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm64 -v ./cmd/godaon
+godaon-enterprise-linux-arm64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/arm64 -v ./cmd/godaon-enterprise
 	@echo "Linux ARM64 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep arm64
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep arm64
 
-godaon-linux-mips:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips --ldflags '-extldflags "-static"' -v ./cmd/godaon
+godaon-enterprise-linux-mips:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips --ldflags '-extldflags "-static"' -v ./cmd/godaon-enterprise
 	@echo "Linux MIPS cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep mips
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep mips
 
-godaon-linux-mipsle:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mipsle --ldflags '-extldflags "-static"' -v ./cmd/godaon
+godaon-enterprise-linux-mipsle:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mipsle --ldflags '-extldflags "-static"' -v ./cmd/godaon-enterprise
 	@echo "Linux MIPSle cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep mipsle
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep mipsle
 
-godaon-linux-mips64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64 --ldflags '-extldflags "-static"' -v ./cmd/godaon
+godaon-enterprise-linux-mips64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64 --ldflags '-extldflags "-static"' -v ./cmd/godaon-enterprise
 	@echo "Linux MIPS64 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep mips64
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep mips64
 
-godaon-linux-mips64le:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64le --ldflags '-extldflags "-static"' -v ./cmd/godaon
+godaon-enterprise-linux-mips64le:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/mips64le --ldflags '-extldflags "-static"' -v ./cmd/godaon-enterprise
 	@echo "Linux MIPS64le cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-linux-* | grep mips64le
+	@ls -ld $(GOBIN)/godaon-enterprise-linux-* | grep mips64le
 
-godaon-darwin: godaon-darwin-386 godaon-darwin-amd64
+godaon-enterprise-darwin: godaon-enterprise-darwin-386 godaon-enterprise-darwin-amd64
 	@echo "Darwin cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-darwin-*
+	@ls -ld $(GOBIN)/godaon-enterprise-darwin-*
 
-godaon-darwin-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/386 -v ./cmd/godaon
+godaon-enterprise-darwin-386:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/386 -v ./cmd/godaon-enterprise
 	@echo "Darwin 386 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-darwin-* | grep 386
+	@ls -ld $(GOBIN)/godaon-enterprise-darwin-* | grep 386
 
-godaon-darwin-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/godaon
+godaon-enterprise-darwin-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/godaon-enterprise
 	@echo "Darwin amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-darwin-* | grep amd64
+	@ls -ld $(GOBIN)/godaon-enterprise-darwin-* | grep amd64
 
-godaon-windows: godaon-windows-386 godaon-windows-amd64
+godaon-enterprise-windows: godaon-enterprise-windows-386 godaon-enterprise-windows-amd64
 	@echo "Windows cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-windows-*
+	@ls -ld $(GOBIN)/godaon-enterprise-windows-*
 
-godaon-windows-386:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/386 -v ./cmd/godaon
+godaon-enterprise-windows-386:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/386 -v ./cmd/godaon-enterprise
 	@echo "Windows 386 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-windows-* | grep 386
+	@ls -ld $(GOBIN)/godaon-enterprise-windows-* | grep 386
 
-godaon-windows-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/godaon
+godaon-enterprise-windows-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/godaon-enterprise
 	@echo "Windows amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/godaon-windows-* | grep amd64
+	@ls -ld $(GOBIN)/godaon-enterprise-windows-* | grep amd64
