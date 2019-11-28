@@ -40,21 +40,26 @@ func TestIsJoinOK2(t *testing.T) {
 		BlockNumber: big.NewInt(1).Uint64(),
 		FnFee:       big.NewFloat(1.0).String(),
 		JoinTxPrice: big.NewInt(6).String(),
-		Mminer:      3,
+		Mminer:      1,
 		Epoch:       100,
 	}
 
-	for i := 0; i < 1; i++ {
+	i := 1
+	for {
 		sucCnt := 0
 		otprn := types.NewOtprn(uint64(len(nodes)), fnAddr, chainConfig)
 		for _, node := range nodes {
 			res := verify.IsJoinOK(otprn, node)
-			t.Log("TestIsJoinOK2 result", "Node", node.String(), "result", res)
+			//t.Log("TestIsJoinOK2 result", "Node", node.String(), "result", res)
 			if res {
 				sucCnt++
 			}
 		}
-		t.Logf("==== Test Step %d , OK count = %d, otprn=%s", i, sucCnt, otprn.HashOtprn().String())
+		if sucCnt == 1 {
+			t.Logf("==== Test Step %d , OK count = %d, otprn=%s", i, sucCnt, otprn.HashOtprn().String())
+			break
+		}
+		i++
 	}
 }
 

@@ -229,20 +229,6 @@ var AppHelpFlagGroups = []flagGroup{
 		},
 	},
 	{
-		Name:  "WHISPER (EXPERIMENTAL)",
-		Flags: whisperFlags,
-	},
-	{
-		Name: "DEPRECATED",
-		Flags: []cli.Flag{
-			utils.MinerLegacyThreadsFlag,
-			utils.MinerLegacyGasTargetFlag,
-			utils.MinerLegacyGasPriceFlag,
-			utils.MinerLegacyEtherbaseFlag,
-			utils.MinerLegacyExtraDataFlag,
-		},
-	},
-	{
 		Name: "MISC",
 	},
 }
