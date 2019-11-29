@@ -4,8 +4,10 @@ go 1.13
 
 require (
 	github.com/Azure/azure-storage-blob-go v0.8.0
-	github.com/anduschain/go-anduschain v0.6.21
+	github.com/Azure/go-autorest/autorest/adal v0.8.0 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20191106175434-873d404c7f40
+	github.com/btcsuite/btcd v0.20.1-beta
+	github.com/cespare/cp v1.1.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/deckarep/golang-set v1.7.1
 	github.com/docker/docker v1.13.1
@@ -23,7 +25,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/karalabe/hid v1.0.0
 	github.com/mattn/go-colorable v0.1.4
-	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
+	github.com/naoina/go-stringutil v0.1.0 // indirect
 	github.com/naoina/toml v0.1.1
 	github.com/olekukonko/tablewriter v0.0.1
 	github.com/pborman/uuid v1.2.0
@@ -33,15 +35,20 @@ require (
 	github.com/rjeczalik/notify v0.9.2
 	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
 	github.com/rs/cors v1.7.0
+	github.com/stretchr/testify v1.3.0
 	github.com/syndtr/goleveldb v1.0.0
+	github.com/tidwall/pretty v1.0.0 // indirect
 	github.com/urfave/cli v1.22.1
 	go.mongodb.org/mongo-driver v1.1.3
 	golang.org/x/crypto v0.0.0-20191117063200-497ca9f6d64f
 	golang.org/x/net v0.0.0-20191014212845-da9a3fd4c582
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
+	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
 	golang.org/x/sys v0.0.0-20191010194322-b09406accb47
 	golang.org/x/tools v0.0.0-20191015211201-9c6d90b5a7d0
 	google.golang.org/grpc v1.25.1
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 	gopkg.in/inconshreveable/log15.v2 v2.0.0-20180818164646-67afb5ed74ec
+	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
 	gopkg.in/olebedev/go-duktape.v3 v3.0.0-20190709231704-1e4459ed25ff
+	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )

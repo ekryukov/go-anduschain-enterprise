@@ -23,13 +23,6 @@ import (
 	"bytes"
 	"crypto/ecdsa"
 	"fmt"
-	"github.com/anduschain/go-anduschain-enterprise/pools/txpool"
-	"io/ioutil"
-	"math/big"
-	"math/rand"
-	"os"
-	"time"
-
 	"github.com/anduschain/go-anduschain-enterprise/accounts/keystore"
 	"github.com/anduschain/go-anduschain-enterprise/common"
 	"github.com/anduschain/go-anduschain-enterprise/common/fdlimit"
@@ -43,6 +36,11 @@ import (
 	"github.com/anduschain/go-anduschain-enterprise/p2p"
 	"github.com/anduschain/go-anduschain-enterprise/p2p/discover"
 	"github.com/anduschain/go-anduschain-enterprise/params"
+	"io/ioutil"
+	"math/big"
+	"math/rand"
+	"os"
+	"time"
 )
 
 func main() {
